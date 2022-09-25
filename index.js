@@ -3,12 +3,6 @@ let markerLeft = marker.style.left.replace("px", "");
 let markerTop = marker.style.top.replace("px", "");
 
 document.querySelector('#start').addEventListener('click', startFetch)
-document.querySelector('#stop').addEventListener('click', stopLoop)
-
-let stop
-function stopLoop(){
-    stop = true;
-}
 
 function startFetch() {
     fetch("http://api.open-notify.org/iss-now.json")
