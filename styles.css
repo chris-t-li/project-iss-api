@@ -1,0 +1,19 @@
+div#earth {
+    width: 1200px;
+    height: 600px;
+    background-color: black;
+    background-image: url("assets/earthimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#iss-location {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("assets/ISS_removebg.png");
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
